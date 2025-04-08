@@ -1,0 +1,29 @@
+<div class="container">
+    <h2>🔹 Angular Concept: Bindings</h2>
+  
+    <p><strong>Interpolation Example:</strong></p>
+    <p>Hello, {{ name || 'Angular Learner' }}!</p>
+  
+    <!-- Property Binding -->
+    <div class="concept-block">
+      <h3>1️⃣ Property Binding</h3>
+      <img [src]="imageUrl" alt="Angular Logo" height="60">
+      <p><strong>Explanation:</strong> <code>[src]="imageUrl"</code> dynamically sets the image source.</p>
+    </div>
+  
+    <!-- Event Binding -->
+    <div class="concept-block">
+      <h3>2️⃣ Event Binding</h3>
+      <button (click)="showAlert()">Click Me</button>
+      <p><strong>Explanation:</strong> <code>(click)="showAlert()"</code> binds the click event to a method.</p>
+    </div>
+  
+    <!-- Two-Way Binding -->
+    <div class="concept-block">
+      <h3>3️⃣ Two-way Binding</h3>
+      <input [(ngModel)]="name" placeholder="Enter your name" />
+      <p><strong>Output:</strong> Hello {{ name }}</p>
+      <p><strong>Explanation:</strong> <code>[(ngModel)]="name"</code> binds the input to the variable.</p>
+    </div>
+  </div>
+  

@@ -1,0 +1,9 @@
+<div class="container">
+    <h1>Angular Concepts</h1>
+    <ul class="topics-list">
+      <li *ngFor="let topic of topics">
+        <a [routerLink]="topic.path">{{ topic.name }}</a>
+      </li>
+    </ul>
+  </div>
+  

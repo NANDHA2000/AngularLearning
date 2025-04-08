@@ -1,0 +1,38 @@
+<div class="container">
+    <h2>🔹 Angular Concept: Interpolation</h2>
+    <p class="description">
+      Interpolation in Angular allows you to bind <strong>component data</strong> into the HTML template using
+      <code>&#123;&#123;</code>. It's commonly used to display text, numbers, dates, and method results directly in the UI.
+    </p>
+  
+    <div class="concept-block">
+      <h3>1️⃣ String Variable</h3>
+      <p><strong>Output:</strong> {{ title }}</p>
+      <p><strong>Explanation:</strong> <span>&#123;&#123; title &#125;&#125;</span> displays the value of a string variable declared in the component.</p>
+    </div>
+  
+    <div class="concept-block">
+      <h3>2️⃣ Display a String</h3>
+      <p><strong>Output:</strong> Hello, {{ userName }}!</p>
+      <p><strong>Explanation:</strong> <span>&#123;&#123; userName &#125;&#125;</span> inserts the user's name (a string) into the UI.</p>
+    </div>
+  
+    <div class="concept-block">
+      <h3>3️⃣ Display a Number</h3>
+      <p><strong>Output:</strong> Your age is: {{ age }}</p>
+      <p><strong>Explanation:</strong> <span>&#123;&#123; age &#125;&#125;</span> binds a number variable and renders it as text.</p>
+    </div>
+  
+    <div class="concept-block">
+      <h3>4️⃣ Display Date Object</h3>
+      <p><strong>Output:</strong> Today's date: {{ today }}</p>
+      <p><strong>Explanation:</strong> <span>&#123;&#123; today &#125;&#125;</span> shows the current date using a Date object.</p>
+    </div>
+  
+    <div class="concept-block">
+      <h3>5️⃣ Method Interpolation</h3>
+      <p><strong>Output:</strong> {{ getWelcomeMessage() }}</p>
+      <p><strong>Explanation:</strong> <span>&#123;&#123; getWelcomeMessage() &#125;&#125;</span> calls a method from the component and shows the return value.</p>
+    </div>
+  </div>
+  
